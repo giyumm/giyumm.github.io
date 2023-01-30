@@ -1,0 +1,242 @@
+.banner{
+    background-color: rgb(195, 188, 188);
+    background-image: url(banner.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.logo{
+    width: 100%;
+    margin:0 auto
+}
+.logo1{
+    float:left   
+}
+nav {
+    float: right;
+    width: 100%;
+    height: 50px;
+    background:white;
+}
+nav ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 110px;
+}
+.menu {
+    overflow: hidden;
+    background-color:blueviolet;
+}
+.menu a {
+    float:left;
+    list-style-type: none;
+    margin: 0;
+    border: 5px solid black;
+    padding:0;
+    width: 100px;
+    background-color:white;
+    text-align: center;
+}
+.menu a:visited{
+    text-decoration:dashed;
+}
+.menu a:hover {
+    background-color: #555;
+    color: white;
+}
+.menu a:active{
+    color:aqua;
+    border:1px solid red;
+}
+aside{
+    position: relative;
+    top: 50px;
+}
+aside > h3{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+aside li{
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue , 0 0 5px blueviolet;
+    font-size: 1em;
+    font-weight: bold;
+}
+aside h3{
+    text-decoration: underline;
+    text-decoration-color: blueviolet(0, 0%, 70%);
+}
+#deadline h4{
+    font-size: 1.5em;
+    color: red;
+}
+
+.main_content{
+    float:  left;
+    width: 50%;
+    padding: 15px;
+    font-family: "Times New Roman", Times, Arial, Helvetica, sans-serif;
+}
+#requirements{
+    clear: both;
+    position: relative;
+    top: 50px;
+
+}
+#submission{
+    clear: both;
+    position: relative;
+    left: 765px;
+    bottom: 250px;
+    font-size: 1.1em;
+}
+#grading{
+    clear: both;
+    position: relative;
+    left: 0px;
+    bottom: 150px;
+    border: 3px solid blueviolet;
+    background-color: blueviolet;
+    font-size: 1.1em;
+    
+}
+#main-heading{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+}
+hr.line{
+    border: 5px solid darkblue;
+    border-radius: 5px;
+    width: 50%;
+}
+#task{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    position: relative;
+    text-align: center;
+}
+#requirements h2{
+    color: rgb(247, 243, 243);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    position: relative;
+    text-align:center;
+    font: size 30px;;
+}
+#submission h2{
+    color: rgb(247, 243, 243);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    position: relative;
+    text-align:center;
+    font: size 30px;;
+}
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+[clouds] { 
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+  }
+
+footer{
+    clear:both;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right:100px;
+    padding-bottom: 30px;
+    background-color:blueviolet;
+    width:92%;
+}
+footer h5{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+footer iframe{
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.quick_links {
+    padding-left: 60px;
+    font-size: 1.5;
+}
+.categories{
+    position: relative;
+    left:12%;
+    display: block;
+    margin-left: 6.5em;
+    width: 40%;
+}
+.categories h5{
+    padding-left: 5px;
+}
+
+.categories ul li{
+    display: block;
+    margin: 4px;
+    width: 40%;   
+}
+.categories ul li a{
+    color: black;
+    margin: 3px;
+}
+.categories ul li a:hover{
+    color: azure;
+}
+.quick_links ul li{
+    display: block;
+    margin: 4px;
+    width: 40%;
+}
+
+.quick_links ul li a{
+    color: black;
+    margin: 3px;
+}
+
+.quick_links ul li a:hover
+{
+    color: azure;
+}
+
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40;
+}
+.contacts.email{
+    color:white;
+    font-size: 1em;
+    font-weight: bold;
+}
+.map{
+    float:left;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
