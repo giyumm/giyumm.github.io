@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+  }
+.banner{
+    background-color: rgb(195, 188, 188);
+    background-image: url(banner.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+}
+.logo1{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto;
+}
+  
+nav {
+    width: 100%;
+    height: 50px;
+    background:white;
+}
+nav ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 110px;
+}
+.menu {
+    overflow: hidden;
+    background-color:blueviolet;
+}
+.menu a {
+    float:left;
+    list-style-type: none;
+    margin: 0;
+    border: 5px solid black;
+    padding:0;
+    width: 100px;
+    background-color:white;
+    text-align: center;
+}
+@media screen and (max-width: 400px) {
+    .menu li a {
+      float: none;
+      width: 100%;
+    }
+}
+.menu a:visited{
+    text-decoration:dashed;
+}
+.menu a:hover {
+    background-color: #555;
+    color: white;
+}
+.menu a:active{
+    color:aqua;
+    border:1px solid red;
+}
+aside{
+    
+    text-align: center;
+}
+aside > h3{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+aside li{
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue , 0 0 5px blueviolet;
+    font-size: 1em;
+    font-weight: bold;
+}
+aside h3{
+    text-decoration: underline;
+    text-decoration-color: blueviolet(0, 0%, 70%);
+}
+#deadline h4{
+    font-size: 1.5em;
+    color: red;
+}
+.main_content{
+    margin-top: 5%;
+    padding: 100px;
+    font-family: "Times New Roman", Times, Arial, Helvetica, sans-serif;
+}
+
+#requirements{
+    top: 50px;
+
+}
+#submission{
+    font-size: 1.1em;
+}
+#grading{
+    border: 3px solid blueviolet;
+    background-color: blueviolet;
+    font-size: 1.1em;
+}
+#task,#requirements,#submission{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+#main-heading:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width:600px) {
+    #task,#requirements,#submission,#image_with_text{
+      width: 100%;
+    }
+}
+
+#main-heading{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+}
+
+hr.line{
+    border: 5px solid darkblue;
+    border-radius: 5px;
+    width: 50%;
+}
+#task{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    position: relative;
+    text-align: center;
+}
+#requirements h2{
+    color: rgb(247, 243, 243);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align:center;
+    font: size 30px;;
+}
+#submission h2{
+    color: rgb(247, 243, 243);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align:center;
+    font: size 30px;;
+}
+@media only screen and (min-width: 300px) {
+    #main-heading{font-size:3.5vw;
+}
+}
+
+.image_with_text {
+    width: 300px;
+    text-align: center;
+}
+
+[clouds] { 
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+  }
+
+@media only screen and (min-width: 768px) {
+.container{
+    height:auto;
+    overflow: auto;
+    background-color:blueviolet;
+    width:100%;
+}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+    .container{
+        height:auto;
+        background-color:blueviolet;
+        width:100%;
+    }
+    }
+
+.contacts,.map,.categories,.quick_links{
+ width: 100%;
+}
+
+
+footer h5{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 768px) {
+    .categories{
+    width: 100%;
+    clear:both;
+    }
+    .quick_links{
+        width: 100%;
+        clear:both;
+    }
+    .contacts{
+        width: 100%;
+        clear:both;
+    }
+}
+@media only screen and (min-width: 768px) {
+        .categories{
+        width: 20%;
+        float:left;
+        }
+        .quick_links{
+            width: 20%;
+            float:left;
+        }
+        .contacts{
+            width: 40%;
+            float:left;
+        }
+}
+.categories h5{
+    padding-left: 5px;
+}
+
+.categories ul li{
+    display: block;
+    margin: 4px;
+    width: 40%;   
+}
+.categories ul li a{
+    color: black;
+    margin: 3px;
+}
+.categories ul li a:hover{
+    color: azure;
+}
+
+.quick_links ul li{
+    display: block;
+    margin: 4px;
+    width: 40%;
+}
+
+.quick_links ul li a{
+    color: black;
+    margin: 3px;
+}
+
+.quick_links ul li a:hover
+{
+    color: azure;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
