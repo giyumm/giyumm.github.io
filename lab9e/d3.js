@@ -1,5 +1,5 @@
 function load () {
-Create SVG canvas
+//Create SVG canvas
 const svgWidth = 500;
 const svgHeight = 500;
 const svg = d3.select('body')
