@@ -1,6 +1,6 @@
 function load () {
-// Create SVG canvas
-/*const svgWidth = 500;
+Create SVG canvas
+const svgWidth = 500;
 const svgHeight = 500;
 const svg = d3.select('body')
   .append('svg')
@@ -22,7 +22,7 @@ svg.selectAll('circle')
   .attr('cy', d => d.y)
   .attr('r', 3)
   .attr('fill', 'blue');
-  */ 
+   
 
 
   //2nd part 
