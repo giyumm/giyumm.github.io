@@ -36,7 +36,7 @@ svg.selectAll('circle')
     "60-69": 0,
     "70+": 0
 };
-  d3.csv('../../titanic.csv').then(function(data) {
+  d3.csv('/data/titanic.csv').then(function(data) {
     // Process and prepare the data
     console.log (data)
     data.forEach(function(d) {
