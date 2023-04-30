@@ -1,6 +1,11 @@
 function load () {
+<<<<<<< HEAD
 // Create SVG canvas
 /*const svgWidth = 500;
+=======
+//Create SVG canvas
+const svgWidth = 500;
+>>>>>>> 5258df77c6f595980d32b2452ff07656ef520ab7
 const svgHeight = 500;
 const svg = d3.select('body')
   .append('svg')
@@ -22,7 +27,11 @@ svg.selectAll('circle')
   .attr('cy', d => d.y)
   .attr('r', 3)
   .attr('fill', 'blue');
+<<<<<<< HEAD
   */ 
+=======
+   
+>>>>>>> 5258df77c6f595980d32b2452ff07656ef520ab7
 
 
   //2nd part 
@@ -36,7 +45,11 @@ svg.selectAll('circle')
     "60-69": 0,
     "70+": 0
 };
+<<<<<<< HEAD
   d3.csv('titanic.csv').then(function(data) {
+=======
+  d3.csv('/data/titanic.csv').then(function(data) {
+>>>>>>> 5258df77c6f595980d32b2452ff07656ef520ab7
     // Process and prepare the data
     console.log (data)
     data.forEach(function(d) {
