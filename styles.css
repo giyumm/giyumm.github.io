@@ -80,9 +80,7 @@
     width: 100%;
     background-color: black;
   }
-  .hamburger {
-      display: flex;
-    }
+  
 
   /* Media query for smaller screen sizes */
   @media (max-width: 768px) {
@@ -95,6 +93,10 @@
       flex-direction: column;
       background-color: white;
       z-index: 1;
+    }
+      
+    .hamburger {
+      display: flex;
     }
     .topic{
             width: 100%;
